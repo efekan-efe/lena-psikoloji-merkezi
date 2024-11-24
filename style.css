@@ -178,6 +178,7 @@ html {
   padding: 2rem;
   border: 1px solid rgba(94, 90, 86, 0.125);
   border-radius: 2rem;
+  min-height: 240px;
 }
 .healingWorksCardTitleContent {
   display: flex;
