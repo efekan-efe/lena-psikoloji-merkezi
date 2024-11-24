@@ -178,7 +178,7 @@ html {
   padding: 2rem;
   border: 1px solid rgba(94, 90, 86, 0.125);
   border-radius: 2rem;
-  min-height: 240px;
+  min-height: 200px;
 }
 .healingWorksCardTitleContent {
   display: flex;
@@ -505,4 +505,94 @@ html {
   color: #3c210e;
   font-weight: 600;
   padding-top: 0.5rem;
+}
+
+/*! Contact */
+
+.contactContent {
+  background-color: #f5f1ed;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+}
+.contactContent .sectionTitleContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.contactContent .heroSliderButton {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  padding-bottom: 1.25rem;
+  margin: 1rem 0 0;
+  border: 3px solid #3c210e;
+}
+.contactInfoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.contactInfoBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.contactInfoIconContent {
+  max-width: 24px;
+  max-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactInfoIcon {
+  width: 100%;
+  height: 100%;
+}
+.contactInfoLink {
+  text-decoration: none;
+  color: #5e5a56;
+}
+
+/*! FAQ */
+.faqContent {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.faqContent .sectionTitleContent {
+  text-align: center;
+}
+.faqRows {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.faqQuestionContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faqButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #3c210e;
+  font-size: 2.75rem;
+}
+.faqQuestion {
+  font-size: 1.5rem;
+  color: #3c210e;
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+.faqAnswer {
+  color: #5e5a56;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
