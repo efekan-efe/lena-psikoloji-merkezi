@@ -355,3 +355,148 @@ html {
   line-height: 1.5rem;
   padding: 0 1rem;
 }
+
+/*! Testimonials */
+.testimonialWrapper {
+  background-color: #f5f1ed;
+  padding: 3rem 0;
+}
+.testimonialContent .sectionTitleContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.testimonialContent {
+  padding: 0 1rem;
+}
+.testimonialCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+.testimonialCard {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  max-width: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+  min-height: 280px;
+}
+.testimonialCardImgContent {
+  max-width: 120px;
+  max-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialCardImg {
+  width: 100%;
+  height: 100%;
+}
+.testimonialCardDesc {
+  color: #5e5a56;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 0 1rem;
+}
+.testimonialCardCustomerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.testimonialCardCustomerName {
+  font-size: 1.2rem;
+  color: #3c210e;
+  font-weight: 500;
+}
+.testimonialCardCustomerLocation {
+  font-size: 1rem;
+  color: #5e5a56;
+  font-weight: 400;
+}
+
+/*! Topics */
+
+.topicsContent {
+  padding: 2rem 0;
+}
+
+.topicsContent .sectionTitleContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.topicCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.topicCard {
+  max-width: 410px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.topicCardLink {
+  text-decoration: none;
+}
+.topicCardImgContent {
+  max-width: 410px;
+  max-height: 410px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s;
+}
+.topicCardImgContent:hover {
+  transform: scale(1.2);
+}
+.topicCardImgContent::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.topicCardImgContent:hover::after {
+  opacity: 0;
+}
+.topicCardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+}
+.topicCardInfoContent {
+  background-color: #fff;
+  z-index: 99;
+  margin-top: 1rem;
+}
+.topicCardDate {
+  color: #5e5a56;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.topicCardTitle {
+  font-size: 1.5rem;
+  color: #3c210e;
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
