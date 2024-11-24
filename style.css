@@ -21,6 +21,11 @@ html {
   background-size: cover;
   min-height: 90vh;
 }
+.heroSlider .splide__slide:nth-child(3) {
+  background: linear-gradient(rgba(60, 33, 14, 0.25), rgba(60, 33, 14, 0.5)), url(./images/heroSection/slider_1.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
 
 .heroSliderInfo {
   display: flex;
