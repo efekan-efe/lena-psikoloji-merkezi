@@ -105,13 +105,17 @@ html {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 0.25rem;
   }
   .heroSliderTitle {
     line-height: 1.25;
   }
   .heroSliderImg {
-    min-height: 35vh;
+    min-height: 40vh;
     object-fit: cover;
+  }
+  .heroSliderDesc {
+    line-height: 1.5;
   }
 }
 
@@ -241,6 +245,7 @@ html {
   .aboutIconBox {
     flex-direction: column;
     text-align: center;
+    padding: 1rem;
   }
 }
 @media (max-width: 500px) {
@@ -394,6 +399,9 @@ html {
   .whatWeDoContent .sectionTitleContent {
     flex-direction: column;
     text-align: center;
+  }
+  .whatWeDoCards {
+    padding: 0;
   }
 }
 
