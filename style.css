@@ -849,6 +849,16 @@ html {
   font-size: 2.25rem;
   margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  .aboutHeroCols {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutHeroContent .sectionTitleContent {
+    text-align: left;
+  }
+}
 
 /*! Experts */
 
@@ -910,4 +920,16 @@ html {
 .expertSocialMediaImg {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  .expertsContent .sectionTitleContent {
+    text-align: left;
+  }
+}
+@media (max-width: 680px) {
+  .expertsCards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
