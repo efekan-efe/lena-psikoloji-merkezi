@@ -151,6 +151,14 @@ html {
   border: 3px solid #3c210e;
   background-color: transparent;
 }
+.sectionTitleImgContent {
+  max-width: 64px;
+  margin-bottom: 0.5rem;
+}
+.sectionTitleImg {
+  width: 100%;
+  height: 100%;
+}
 .aboutDesc {
   font-size: 1.1rem;
   line-height: 30px;
@@ -190,13 +198,13 @@ html {
   gap: 0.5rem;
 }
 .aboutIconTitle {
-  color: rgb(94, 90, 86);
-  font-size: 1.75rem;
-  font-weight: normal;
+  color: #3c210e;
+  font-size: 2rem;
+  font-weight: 500;
 }
 .aboutIconDesc {
-  color: rgb(60, 33, 14);
-  font-size: 1rem;
+  color: #5e5a56;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 .aboutIconContent {
@@ -226,7 +234,7 @@ html {
   }
   .aboutContent .aboutDesc {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
   .aboutImgSide {
     display: none;
@@ -235,7 +243,7 @@ html {
     grid-template-columns: 1fr;
   }
   .aboutContent .sectionTitleContent {
-    text-align: center;
+    text-align: left;
   }
   .aboutIconBox {
     justify-content: center;
@@ -940,5 +948,68 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+/*! Expert Details */
+.expertDetailsContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  margin: 1rem auto;
+}
+.expertDetailsInfoSide,
+.expertDetailsImgSide {
+  width: 100%;
+}
+.expertDetailsImgSide {
+  position: sticky;
+  top: 1rem;
+}
+.expertDetailsImgContent,
+.expertDetailsImg {
+  border-radius: 1.5rem;
+}
+.expertDetailsImg {
+  width: 100%;
+  height: 100%;
+}
+.expertDetailsContent .expertSocialMediaContent {
+  opacity: 1;
+  position: relative;
+  top: unset;
+  left: unset;
+  transform: unset;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+}
+.expertDetailsContent .aboutDesc {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+.sectionListTitle {
+  font-size: 1.5rem;
+}
+.expertDetailsContent ul {
+  padding: 1rem;
+  margin: 0;
+}
+.expertDetailsContent li {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+@media (max-width: 900px) {
+  .expertDetailsContent {
+    flex-direction: column;
+  }
+  .expertDetailsImgContent {
+    max-width: 600px;
+    margin: 0rem auto;
+  }
+  .expertDetailsImgSide {
+    position: relative;
+    top: unset;
   }
 }
