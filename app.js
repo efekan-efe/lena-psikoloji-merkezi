@@ -121,6 +121,7 @@ const faqInfo = [
 ];
 
 faqRows.innerHTML = faqInfo
+  .splice(0, 5)
   .map((item) => {
     return `
     <div class="faqRow">
