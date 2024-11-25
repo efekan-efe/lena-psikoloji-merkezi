@@ -258,6 +258,9 @@ html {
 }
 
 /*! Why Healing Works */
+.healingWorksContent {
+  margin: 2rem 0;
+}
 
 .healingWorksContent .sectionTitleContent {
   text-align: center;
