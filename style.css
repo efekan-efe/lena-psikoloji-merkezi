@@ -557,7 +557,10 @@ html {
   gap: 1rem;
   padding: 2rem;
   text-align: center;
-  min-height: 280px;
+  min-height: 380px;
+}
+.referenceSlider {
+  margin: 2rem 0 1rem;
 }
 .testimonialCardImgContent {
   max-width: 120px;
@@ -591,6 +594,7 @@ html {
   font-size: 1rem;
   color: #5e5a56;
   font-weight: 400;
+  display: none;
 }
 
 /*! Topics */
