@@ -621,6 +621,8 @@ html {
 }
 .topicCardLink {
   text-decoration: none;
+  max-height: 410px;
+  overflow: hidden;
 }
 .topicCardImgContent {
   max-width: 410px;
