@@ -1013,3 +1013,131 @@ html {
     top: unset;
   }
 }
+
+/*! Hizmetlerimiz */
+
+.allOurServices .sectionTitleContent {
+  text-align: center;
+  flex-direction: column;
+}
+.allOurServices .whatWeDoCard {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*! Hizmet Detay */
+.serviceDetailContent {
+  max-width: 1300px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 3rem;
+}
+.serviceDetailContent .faqContent,
+.serviceDetailContent .expertsContent {
+  padding: 0;
+}
+.serviceDetailContent .expertsCards {
+  justify-content: flex-start;
+}
+.serviceDetailTitle {
+  color: #3c210e;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.serviceDetailDesc {
+  color: #5e5a56;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.serviceDetailImgContent,
+.serviceDetailImg {
+  border-radius: 1rem;
+}
+.serviceDetailImgContent {
+  margin-bottom: 2rem;
+}
+.otherServicesContent {
+  background-color: #f5f1ed;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+.otherServicesTitle,
+.otherServicesLink {
+  color: #3c210e;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+.otherServicesList {
+  list-style: none;
+}
+.otherServicesListItem {
+  margin: 0.8rem 0;
+}
+.otherServicesLink {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/*! Blog */
+.blogContent {
+  margin: 2rem auto;
+}
+.blogCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.blogCard .blogCardImgContent {
+  position: relative;
+  max-height: 310px;
+  min-height: 310px;
+  max-width: 410px;
+  overflow: hidden;
+}
+.blogCard .blogCardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: transform 0.35s ease;
+}
+.blogCardImgContent:hover .blogCardImg {
+  transform: scale(1.1);
+}
+.blogCardImgContent::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.blogCard .topicCardInfoContent {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  background: transparent;
+  max-width: 400px;
+}
+.blogCard .topicCardTitle,
+.blogCard .topicCardDate {
+  color: #fff;
+}
+@media (max-width: 1050px) {
+  .blogCards {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .blogCards {
+    grid-template-columns: 1fr;
+  }
+}
