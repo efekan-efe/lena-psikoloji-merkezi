@@ -10,6 +10,7 @@ html {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 1rem;
+  font-family: "Archivo", sans-serif !important;
 }
 /*
 .heroSlider .splide__slide:first-child {
